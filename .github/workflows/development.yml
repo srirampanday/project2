@@ -10,9 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: ./
+        uses: actions/checkout@v2
       - name: Use Node.js 17.x
-        uses: ./
+        uses: actions/setup-node@v1
         with:
           node-version: 17.x
       # - name: Navigate to project directory
