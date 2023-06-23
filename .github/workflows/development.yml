@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: 17.x
       - name: Navigate to project directory
-        run: cd project2/drawing-app/package.json
+        run: cd /home/runner/work/project2/drawing-app/package.json
       - run: npm install
       - run: npm run build
       - name: Run tests
