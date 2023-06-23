@@ -23,7 +23,7 @@ jobs:
       #   run: npm test
       # - run: npm ci
       - name: Change directory
-        run: cd project2/drawing-app
+        run: cd project2/drawing-app/
       - run: npm run build
       - run: npm run format-check
       - run: npm run lint
