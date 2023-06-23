@@ -1,4 +1,4 @@
-import React, { useEffect, useState, color } from 'react';
+import React, { useEffect, useState } from 'react';
 
 const Canvas = ({ canvasRef, ctx, color }) => {
   const [isDrawing, setIsDrawing] = useState(false);
