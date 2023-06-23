@@ -10,13 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: ./
       - name: Use Node.js 17.x
-        uses: actions/setup-node@v1
+        uses: ./
         with:
           node-version: 17.x
-      - name: Navigate to project directory
-        run: cd /home/runner/work/project2/drawing-app/package.json
+      # - name: Navigate to project directory
+      #   run: cd /home/runner/work/project2/drawing-app/package.json
       - run: npm install
       - run: npm run build
       - name: Run tests
