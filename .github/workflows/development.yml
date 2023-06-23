@@ -9,6 +9,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+    - run: cd drawing-app
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Use Node.js 17.x
@@ -22,7 +23,7 @@ jobs:
       # - name: Run tests
       #   run: npm test
       # - run: npm ci
-      - run: cd drawing-app
+      
       - run: npm run build
       - run: npm run format-check
       - run: npm run lint
