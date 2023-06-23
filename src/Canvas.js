@@ -18,7 +18,7 @@ const Canvas = ({ canvasRef, ctx, color }) => {
     context.strokeStyle = color;
     context.lineWidth = 5;
     ctx.current = context;
-  }, []);
+  }, [canvasRef, ctx, color]);
 
   useEffect(() => {
     ctx.current.strokeStyle = color;
