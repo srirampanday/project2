@@ -22,7 +22,7 @@ const Canvas = ({ canvasRef, ctx, color }) => {
 
   useEffect(() => {
     ctx.current.strokeStyle = color;
-  }, [color]);
+  }, [ctx, color]);
 
   const handleMouseDown = ({ nativeEvent }) => {
     console.log('this');
