@@ -9,8 +9,6 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Install dependencies
-        run: cd project2/drawing-app
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Use Node.js 17.x
