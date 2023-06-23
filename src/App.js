@@ -17,7 +17,7 @@ const App = () => {
   return (
     <div className="container-fluid">
       <div className="row">
-        <h1 className="display-5 pt-4 pb-3 text-center">Drawing App</h1>
+        <h1 className="display-5 pt-4 pb-3 text-center">Drawing Ap</h1>
       </div>
       <div className="row justify-content-center align-items-center text-center py-2">
         <div className="col-md-2">
