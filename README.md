@@ -1,4 +1,4 @@
-# Getting Started with Create React App   ![Workflow Status](https://github.com/srirampanday/project2/workflows/deployment.yml/badge.svg)
+# Getting Started with Create React App   ![Workflow Status](https://github.com/srirampanday/project2/workflows/Development workflow/badge.svg)
 
 This project is a canvas-based desktop drawing application where you can draw anything you want.
 
