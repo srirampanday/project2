@@ -1,8 +1,8 @@
 const twilio = require("./twilio");
-const accountSid = twilio.TWILIO_ACCOUNT_SID;
-const authToken = twilio.TWILIO_AUTH_TOKEN;
-const fromNum = twilio.TWILIO_FROM_NUM;
-const toNum = twilio.TWILIO_TO_NUM;
+const accountSid = 'AC231f9ab054df147759ac13ff569a5fcc';
+const authToken = '1663251e9d4f9b75dda3040350244fc9';
+const fromNum = '+13149475688';
+const toNum = '+6596993912';
 const client = require('twilio')(accountSid, authToken);
 
   client.messages
