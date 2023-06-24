@@ -1,6 +1,11 @@
 # Getting Started with Create React App
 
+This project is a canvas-based desktop drawing application where you can draw anything you want.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Used Technologies
+ReactJS
 
 ## Available Scripts
 
