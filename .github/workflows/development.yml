@@ -27,7 +27,7 @@ jobs:
         with:
           fromPhoneNumber: ${{ secrets.TWILIO_FROM_NUM }}
           toPhoneNumber: ${{ secrets.TWILIO_TO_NUM }}
-          message: 'Hello DevOps Course'
+          message: 'Hello Uli'
         env:
           TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
           TWILIO_API_KEY: ${{ secrets.TWILIO_API_KEY }}
