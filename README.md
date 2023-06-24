@@ -5,7 +5,8 @@ This project is a canvas-based desktop drawing application where you can draw an
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Used Technologies
-ReactJS
+* ReactJS
+* Bootstrap
 
 ## Available Scripts
 
