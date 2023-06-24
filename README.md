@@ -10,6 +10,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Installation
 * First, clone the project:
+
+```
+git clone git@github.com:panzerdp/clipboardy.git clipboardy-chrome-extension
+```
   
 * Bootstrap
 
