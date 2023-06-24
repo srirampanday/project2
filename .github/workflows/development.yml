@@ -18,8 +18,8 @@ jobs:
           node-version: 16.x
       - run: npm install
       - run: npm run build
-      - name: install twilio
-        run: npm install twilio
+      # - name: install twilio
+      #   run: npm install twilio
       # - name: Send SMS alert
       #   run: node sendSMS.js
       - name: 'Sending SMS Notification'
