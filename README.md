@@ -8,7 +8,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * ReactJS
 * Bootstrap
 
-## Available Scripts
+## Installation
+* First, clone the project:
+  
+* Bootstrap
 
 In the project directory, you can run:
 
